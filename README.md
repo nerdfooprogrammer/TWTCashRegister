@@ -37,7 +37,7 @@
 
 优惠信息表
 
-|id|Barcode  |FavorableType|FavorableValue|
+|id|Barcode  |FavorableType |FavorableValue|
 |--|----------|-------------|--------------|
 |1 |ITEM000001|FreeOne      |2             |
 |2 |ITEM000003|Discount     |0.95          |
