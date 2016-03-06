@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="trT-Ls-QKh">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="F6S-aP-fHC">
+                                <rect key="frame" x="175" y="74" width="250" height="120"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="8lj-vp-iX3"/>
+                                    <constraint firstAttribute="width" constant="250" id="W5K-FA-3sO"/>
+                                </constraints>
+                                <string key="text">***&lt;没钱赚商店&gt;商品清单***                                                  条形码            名称            价格                                           ITEM000001  羽毛球        1.00       ITEM000003  苹果            5.50       ITEM000005  可口可乐     3.00</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dbt-Ok-tsN">
+                                <rect key="frame" x="204" y="219" width="192.5" height="59"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="192.5" id="dCG-nJ-WTl"/>
+                                    <constraint firstAttribute="height" constant="59" id="fzB-o7-1Yk"/>
+                                </constraints>
+                                <state key="normal" title="去结算(官方用例1)"/>
+                                <connections>
+                                    <action selector="clearingFee:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fpO-o2-HOy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hDP-9d-emR">
+                                <rect key="frame" x="204" y="300" width="192.5" height="59"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="192.5" id="kHs-dh-QTD"/>
+                                    <constraint firstAttribute="height" constant="59" id="pZ7-4k-0s1"/>
+                                </constraints>
+                                <state key="normal" title="去结算(官方用例2)"/>
+                                <connections>
+                                    <action selector="clearingFee:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wTb-Tm-J0r"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ur1-Ne-G8o">
+                                <rect key="frame" x="204" y="381" width="192.5" height="59"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="192.5" id="dDi-oG-tUV"/>
+                                    <constraint firstAttribute="height" constant="59" id="xVE-TO-GJa"/>
+                                </constraints>
+                                <state key="normal" title="去结算(官方用例3)"/>
+                                <connections>
+                                    <action selector="clearingFee:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VSP-vf-Y5M"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YJT-a7-feN">
+                                <rect key="frame" x="204" y="467" width="192.5" height="59"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="59" id="SDe-dk-tys"/>
+                                    <constraint firstAttribute="width" constant="192.5" id="dv8-g0-FGg"/>
+                                </constraints>
+                                <state key="normal" title="去结算(官方用例4)"/>
+                                <connections>
+                                    <action selector="clearingFee:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qfp-aj-wgx"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="YJT-a7-feN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3gd-hV-j00"/>
+                            <constraint firstItem="F6S-aP-fHC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4fr-r5-NIq"/>
+                            <constraint firstItem="dbt-Ok-tsN" firstAttribute="top" secondItem="F6S-aP-fHC" secondAttribute="bottom" constant="25" id="EoY-Cx-6za"/>
+                            <constraint firstItem="YJT-a7-feN" firstAttribute="top" secondItem="ur1-Ne-G8o" secondAttribute="bottom" constant="27" id="FKk-xX-jvg"/>
+                            <constraint firstItem="hDP-9d-emR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GD1-NS-sRg"/>
+                            <constraint firstItem="dbt-Ok-tsN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ihf-lw-iBN"/>
+                            <constraint firstItem="F6S-aP-fHC" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="cww-Vp-AU9"/>
+                            <constraint firstItem="ur1-Ne-G8o" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mTV-9K-KDa"/>
+                            <constraint firstItem="hDP-9d-emR" firstAttribute="top" secondItem="dbt-Ok-tsN" secondAttribute="bottom" constant="22" id="n76-7I-1RS"/>
+                            <constraint firstItem="ur1-Ne-G8o" firstAttribute="top" secondItem="hDP-9d-emR" secondAttribute="bottom" constant="22" id="thX-sa-JLK"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Ki8-8b-4Zi"/>
+                    <connections>
+                        <segue destination="iWG-M2-TEY" kind="show" identifier="clearFee" id="ams-YM-Snv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="465" y="147"/>
+        </scene>
+        <!--Clear Fee View Controller-->
+        <scene sceneID="GI3-O9-CU7">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="iWG-M2-TEY" customClass="TWClearFeeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Zu4-JA-8Hp"/>
+                        <viewControllerLayoutGuide type="bottom" id="x7C-bo-P6G"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5Bh-Ep-IE7">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="k6s-ac-tmj">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="x7C-bo-P6G" firstAttribute="top" secondItem="k6s-ac-tmj" secondAttribute="bottom" id="Ai4-TK-Emd"/>
+                            <constraint firstItem="k6s-ac-tmj" firstAttribute="top" secondItem="Zu4-JA-8Hp" secondAttribute="bottom" id="TuH-HR-vQs"/>
+                            <constraint firstItem="k6s-ac-tmj" firstAttribute="leading" secondItem="5Bh-Ep-IE7" secondAttribute="leading" id="kRf-Hv-dlH"/>
+                            <constraint firstAttribute="trailing" secondItem="k6s-ac-tmj" secondAttribute="trailing" id="qET-7G-xSa"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="feeDetailTextView" destination="k6s-ac-tmj" id="rPd-T3-7gf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lzU-GE-6m7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1239" y="147"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="sUy-XP-7Yo">
+            <objects>
+                <navigationController id="trT-Ls-QKh" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="esU-eE-CTr">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="EUX-Up-NOS">
+                        <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ixU-sJ-PRY"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ftA-ch-bZw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-370" y="147"/>
+        </scene>
+    </scenes>
+</document>
