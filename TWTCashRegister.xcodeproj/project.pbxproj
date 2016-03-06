@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A47294E1C84A219002D6AB8 /* TWParse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A47294D1C84A219002D6AB8 /* TWParse.m */; };
+		3A47294F1C84A219002D6AB8 /* TWParse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A47294D1C84A219002D6AB8 /* TWParse.m */; };
+		3A47295D1C85E297002D6AB8 /* TWFavorable.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A47295C1C85E297002D6AB8 /* TWFavorable.m */; };
+		3A47295E1C85E297002D6AB8 /* TWFavorable.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A47295C1C85E297002D6AB8 /* TWFavorable.m */; };
+		3A4729621C8892FA002D6AB8 /* TWClearFeeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4729611C8892FA002D6AB8 /* TWClearFeeViewController.m */; };
+		3A4729651C89A560002D6AB8 /* TWProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4729641C89A560002D6AB8 /* TWProduct.m */; };
+		3A4729681C89A5E2002D6AB8 /* TWCashRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4729671C89A5E2002D6AB8 /* TWCashRegister.m */; };
+		3A47296C1C89A683002D6AB8 /* TWDatabaseManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A47296B1C89A683002D6AB8 /* TWDatabaseManger.m */; };
+		3A47296D1C89A683002D6AB8 /* TWDatabaseManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A47296B1C89A683002D6AB8 /* TWDatabaseManger.m */; };
+		3A47296F1C8B004B002D6AB8 /* TWProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4729641C89A560002D6AB8 /* TWProduct.m */; };
+		3A4729701C8B0050002D6AB8 /* TWCashRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4729671C89A5E2002D6AB8 /* TWCashRegister.m */; };
+		3A4729711C8B017B002D6AB8 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A955D341C84837F00B6AC55 /* libsqlite3.tbd */; };
+		3A955D031C84835000B6AC55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A955D021C84835000B6AC55 /* main.m */; };
+		3A955D061C84835000B6AC55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A955D051C84835000B6AC55 /* AppDelegate.m */; };
+		3A955D091C84835000B6AC55 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A955D081C84835000B6AC55 /* ViewController.m */; };
+		3A955D0C1C84835000B6AC55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A955D0A1C84835000B6AC55 /* Main.storyboard */; };
+		3A955D0E1C84835000B6AC55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A955D0D1C84835000B6AC55 /* Assets.xcassets */; };
+		3A955D111C84835000B6AC55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A955D0F1C84835000B6AC55 /* LaunchScreen.storyboard */; };
+		3A955D1C1C84835000B6AC55 /* TWTCashRegisterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A955D1B1C84835000B6AC55 /* TWTCashRegisterTests.m */; };
+		3A955D271C84835000B6AC55 /* TWTCashRegisterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A955D261C84835000B6AC55 /* TWTCashRegisterUITests.m */; };
+		3A955D351C84837F00B6AC55 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A955D341C84837F00B6AC55 /* libsqlite3.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A955D181C84835000B6AC55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A955CF61C84835000B6AC55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A955CFD1C84835000B6AC55;
+			remoteInfo = TWTCashRegister;
+		};
+		3A955D231C84835000B6AC55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A955CF61C84835000B6AC55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A955CFD1C84835000B6AC55;
+			remoteInfo = TWTCashRegister;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A47294C1C84A219002D6AB8 /* TWParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWParse.h; sourceTree = "<group>"; };
+		3A47294D1C84A219002D6AB8 /* TWParse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWParse.m; sourceTree = "<group>"; };
+		3A47295B1C85E297002D6AB8 /* TWFavorable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWFavorable.h; sourceTree = "<group>"; };
+		3A47295C1C85E297002D6AB8 /* TWFavorable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWFavorable.m; sourceTree = "<group>"; };
+		3A4729601C8892FA002D6AB8 /* TWClearFeeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWClearFeeViewController.h; sourceTree = "<group>"; };
+		3A4729611C8892FA002D6AB8 /* TWClearFeeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWClearFeeViewController.m; sourceTree = "<group>"; };
+		3A4729631C89A560002D6AB8 /* TWProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWProduct.h; sourceTree = "<group>"; };
+		3A4729641C89A560002D6AB8 /* TWProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWProduct.m; sourceTree = "<group>"; };
+		3A4729661C89A5E2002D6AB8 /* TWCashRegister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWCashRegister.h; sourceTree = "<group>"; };
+		3A4729671C89A5E2002D6AB8 /* TWCashRegister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWCashRegister.m; sourceTree = "<group>"; };
+		3A47296A1C89A683002D6AB8 /* TWDatabaseManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWDatabaseManger.h; sourceTree = "<group>"; };
+		3A47296B1C89A683002D6AB8 /* TWDatabaseManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWDatabaseManger.m; sourceTree = "<group>"; };
+		3A4729721C8B020D002D6AB8 /* TWConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWConstants.h; sourceTree = "<group>"; };
+		3A955CFE1C84835000B6AC55 /* TWTCashRegister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TWTCashRegister.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A955D021C84835000B6AC55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A955D041C84835000B6AC55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3A955D051C84835000B6AC55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3A955D071C84835000B6AC55 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3A955D081C84835000B6AC55 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3A955D0B1C84835000B6AC55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A955D0D1C84835000B6AC55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A955D101C84835000B6AC55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A955D121C84835000B6AC55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A955D171C84835000B6AC55 /* TWTCashRegisterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TWTCashRegisterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A955D1B1C84835000B6AC55 /* TWTCashRegisterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWTCashRegisterTests.m; sourceTree = "<group>"; };
+		3A955D1D1C84835000B6AC55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A955D221C84835000B6AC55 /* TWTCashRegisterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TWTCashRegisterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A955D261C84835000B6AC55 /* TWTCashRegisterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWTCashRegisterUITests.m; sourceTree = "<group>"; };
+		3A955D281C84835000B6AC55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A955D341C84837F00B6AC55 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A955CFB1C84835000B6AC55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A955D351C84837F00B6AC55 /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A955D141C84835000B6AC55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A4729711C8B017B002D6AB8 /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A955D1F1C84835000B6AC55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A47294A1C84A202002D6AB8 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				3A47295A1C85E259002D6AB8 /* Favorable */,
+				3A47294B1C84A202002D6AB8 /* Parse */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		3A47294B1C84A202002D6AB8 /* Parse */ = {
+			isa = PBXGroup;
+			children = (
+				3A47294C1C84A219002D6AB8 /* TWParse.h */,
+				3A47294D1C84A219002D6AB8 /* TWParse.m */,
+			);
+			path = Parse;
+			sourceTree = "<group>";
+		};
+		3A4729501C85D9D6002D6AB8 /* CashRegister */ = {
+			isa = PBXGroup;
+			children = (
+				3A4729661C89A5E2002D6AB8 /* TWCashRegister.h */,
+				3A4729671C89A5E2002D6AB8 /* TWCashRegister.m */,
+			);
+			path = CashRegister;
+			sourceTree = "<group>";
+		};
+		3A4729551C85DB1B002D6AB8 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				3A4729631C89A560002D6AB8 /* TWProduct.h */,
+				3A4729641C89A560002D6AB8 /* TWProduct.m */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		3A47295A1C85E259002D6AB8 /* Favorable */ = {
+			isa = PBXGroup;
+			children = (
+				3A47295B1C85E297002D6AB8 /* TWFavorable.h */,
+				3A47295C1C85E297002D6AB8 /* TWFavorable.m */,
+			);
+			path = Favorable;
+			sourceTree = "<group>";
+		};
+		3A4729691C89A683002D6AB8 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				3A47296A1C89A683002D6AB8 /* TWDatabaseManger.h */,
+				3A47296B1C89A683002D6AB8 /* TWDatabaseManger.m */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		3A955CF51C84835000B6AC55 = {
+			isa = PBXGroup;
+			children = (
+				3A955D341C84837F00B6AC55 /* libsqlite3.tbd */,
+				3A955D001C84835000B6AC55 /* TWTCashRegister */,
+				3A955D1A1C84835000B6AC55 /* TWTCashRegisterTests */,
+				3A955D251C84835000B6AC55 /* TWTCashRegisterUITests */,
+				3A955CFF1C84835000B6AC55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A955CFF1C84835000B6AC55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A955CFE1C84835000B6AC55 /* TWTCashRegister.app */,
+				3A955D171C84835000B6AC55 /* TWTCashRegisterTests.xctest */,
+				3A955D221C84835000B6AC55 /* TWTCashRegisterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A955D001C84835000B6AC55 /* TWTCashRegister */ = {
+			isa = PBXGroup;
+			children = (
+				3A4729691C89A683002D6AB8 /* Storage */,
+				3A47294A1C84A202002D6AB8 /* Utility */,
+				3A955D3A1C84878F00B6AC55 /* Model */,
+				3A955D041C84835000B6AC55 /* AppDelegate.h */,
+				3A955D051C84835000B6AC55 /* AppDelegate.m */,
+				3A955D071C84835000B6AC55 /* ViewController.h */,
+				3A955D081C84835000B6AC55 /* ViewController.m */,
+				3A4729601C8892FA002D6AB8 /* TWClearFeeViewController.h */,
+				3A4729611C8892FA002D6AB8 /* TWClearFeeViewController.m */,
+				3A4729721C8B020D002D6AB8 /* TWConstants.h */,
+				3A955D0A1C84835000B6AC55 /* Main.storyboard */,
+				3A955D0D1C84835000B6AC55 /* Assets.xcassets */,
+				3A955D0F1C84835000B6AC55 /* LaunchScreen.storyboard */,
+				3A955D121C84835000B6AC55 /* Info.plist */,
+				3A955D011C84835000B6AC55 /* Supporting Files */,
+			);
+			path = TWTCashRegister;
+			sourceTree = "<group>";
+		};
+		3A955D011C84835000B6AC55 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A955D021C84835000B6AC55 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3A955D1A1C84835000B6AC55 /* TWTCashRegisterTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A955D1B1C84835000B6AC55 /* TWTCashRegisterTests.m */,
+				3A955D1D1C84835000B6AC55 /* Info.plist */,
+			);
+			path = TWTCashRegisterTests;
+			sourceTree = "<group>";
+		};
+		3A955D251C84835000B6AC55 /* TWTCashRegisterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3A955D261C84835000B6AC55 /* TWTCashRegisterUITests.m */,
+				3A955D281C84835000B6AC55 /* Info.plist */,
+			);
+			path = TWTCashRegisterUITests;
+			sourceTree = "<group>";
+		};
+		3A955D3A1C84878F00B6AC55 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3A4729551C85DB1B002D6AB8 /* Entity */,
+				3A4729501C85D9D6002D6AB8 /* CashRegister */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A955CFD1C84835000B6AC55 /* TWTCashRegister */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A955D2B1C84835000B6AC55 /* Build configuration list for PBXNativeTarget "TWTCashRegister" */;
+			buildPhases = (
+				3A955CFA1C84835000B6AC55 /* Sources */,
+				3A955CFB1C84835000B6AC55 /* Frameworks */,
+				3A955CFC1C84835000B6AC55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TWTCashRegister;
+			productName = TWTCashRegister;
+			productReference = 3A955CFE1C84835000B6AC55 /* TWTCashRegister.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A955D161C84835000B6AC55 /* TWTCashRegisterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A955D2E1C84835000B6AC55 /* Build configuration list for PBXNativeTarget "TWTCashRegisterTests" */;
+			buildPhases = (
+				3A955D131C84835000B6AC55 /* Sources */,
+				3A955D141C84835000B6AC55 /* Frameworks */,
+				3A955D151C84835000B6AC55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A955D191C84835000B6AC55 /* PBXTargetDependency */,
+			);
+			name = TWTCashRegisterTests;
+			productName = TWTCashRegisterTests;
+			productReference = 3A955D171C84835000B6AC55 /* TWTCashRegisterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3A955D211C84835000B6AC55 /* TWTCashRegisterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A955D311C84835000B6AC55 /* Build configuration list for PBXNativeTarget "TWTCashRegisterUITests" */;
+			buildPhases = (
+				3A955D1E1C84835000B6AC55 /* Sources */,
+				3A955D1F1C84835000B6AC55 /* Frameworks */,
+				3A955D201C84835000B6AC55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A955D241C84835000B6AC55 /* PBXTargetDependency */,
+			);
+			name = TWTCashRegisterUITests;
+			productName = TWTCashRegisterUITests;
+			productReference = 3A955D221C84835000B6AC55 /* TWTCashRegisterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A955CF61C84835000B6AC55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = huixinming;
+				TargetAttributes = {
+					3A955CFD1C84835000B6AC55 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					3A955D161C84835000B6AC55 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 3A955CFD1C84835000B6AC55;
+					};
+					3A955D211C84835000B6AC55 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 3A955CFD1C84835000B6AC55;
+					};
+				};
+			};
+			buildConfigurationList = 3A955CF91C84835000B6AC55 /* Build configuration list for PBXProject "TWTCashRegister" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A955CF51C84835000B6AC55;
+			productRefGroup = 3A955CFF1C84835000B6AC55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A955CFD1C84835000B6AC55 /* TWTCashRegister */,
+				3A955D161C84835000B6AC55 /* TWTCashRegisterTests */,
+				3A955D211C84835000B6AC55 /* TWTCashRegisterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A955CFC1C84835000B6AC55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A955D111C84835000B6AC55 /* LaunchScreen.storyboard in Resources */,
+				3A955D0E1C84835000B6AC55 /* Assets.xcassets in Resources */,
+				3A955D0C1C84835000B6AC55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A955D151C84835000B6AC55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A955D201C84835000B6AC55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A955CFA1C84835000B6AC55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A955D091C84835000B6AC55 /* ViewController.m in Sources */,
+				3A4729651C89A560002D6AB8 /* TWProduct.m in Sources */,
+				3A955D061C84835000B6AC55 /* AppDelegate.m in Sources */,
+				3A4729681C89A5E2002D6AB8 /* TWCashRegister.m in Sources */,
+				3A4729621C8892FA002D6AB8 /* TWClearFeeViewController.m in Sources */,
+				3A47295D1C85E297002D6AB8 /* TWFavorable.m in Sources */,
+				3A955D031C84835000B6AC55 /* main.m in Sources */,
+				3A47296C1C89A683002D6AB8 /* TWDatabaseManger.m in Sources */,
+				3A47294E1C84A219002D6AB8 /* TWParse.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A955D131C84835000B6AC55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A47294F1C84A219002D6AB8 /* TWParse.m in Sources */,
+				3A955D1C1C84835000B6AC55 /* TWTCashRegisterTests.m in Sources */,
+				3A47295E1C85E297002D6AB8 /* TWFavorable.m in Sources */,
+				3A47296F1C8B004B002D6AB8 /* TWProduct.m in Sources */,
+				3A4729701C8B0050002D6AB8 /* TWCashRegister.m in Sources */,
+				3A47296D1C89A683002D6AB8 /* TWDatabaseManger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A955D1E1C84835000B6AC55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A955D271C84835000B6AC55 /* TWTCashRegisterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A955D191C84835000B6AC55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A955CFD1C84835000B6AC55 /* TWTCashRegister */;
+			targetProxy = 3A955D181C84835000B6AC55 /* PBXContainerItemProxy */;
+		};
+		3A955D241C84835000B6AC55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A955CFD1C84835000B6AC55 /* TWTCashRegister */;
+			targetProxy = 3A955D231C84835000B6AC55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A955D0A1C84835000B6AC55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A955D0B1C84835000B6AC55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3A955D0F1C84835000B6AC55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A955D101C84835000B6AC55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A955D291C84835000B6AC55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3A955D2A1C84835000B6AC55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A955D2C1C84835000B6AC55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = TWTCashRegister/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NerdFooProgrammer.TWTCashRegister;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		3A955D2D1C84835000B6AC55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = TWTCashRegister/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NerdFooProgrammer.TWTCashRegister;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		3A955D2F1C84835000B6AC55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TWTCashRegisterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NerdFooProgrammer.TWTCashRegisterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TWTCashRegister.app/TWTCashRegister";
+			};
+			name = Debug;
+		};
+		3A955D301C84835000B6AC55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TWTCashRegisterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NerdFooProgrammer.TWTCashRegisterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TWTCashRegister.app/TWTCashRegister";
+			};
+			name = Release;
+		};
+		3A955D321C84835000B6AC55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TWTCashRegisterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NerdFooProgrammer.TWTCashRegisterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TWTCashRegister;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3A955D331C84835000B6AC55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TWTCashRegisterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NerdFooProgrammer.TWTCashRegisterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TWTCashRegister;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A955CF91C84835000B6AC55 /* Build configuration list for PBXProject "TWTCashRegister" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A955D291C84835000B6AC55 /* Debug */,
+				3A955D2A1C84835000B6AC55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A955D2B1C84835000B6AC55 /* Build configuration list for PBXNativeTarget "TWTCashRegister" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A955D2C1C84835000B6AC55 /* Debug */,
+				3A955D2D1C84835000B6AC55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A955D2E1C84835000B6AC55 /* Build configuration list for PBXNativeTarget "TWTCashRegisterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A955D2F1C84835000B6AC55 /* Debug */,
+				3A955D301C84835000B6AC55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A955D311C84835000B6AC55 /* Build configuration list for PBXNativeTarget "TWTCashRegisterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A955D321C84835000B6AC55 /* Debug */,
+				3A955D331C84835000B6AC55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A955CF61C84835000B6AC55 /* Project object */;
+}
