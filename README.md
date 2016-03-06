@@ -37,11 +37,12 @@
 
 优惠信息表
 
-|id|Barcode|FavorableType|FavorableValue|
-|--|---|------|----|
-|1|ITEM000001|FreeOne|2|
-|2|ITEM000003|Discount|0.95|
-|3|ITEM000005|FreeOne|2|
+|id|Barcode  |FavorableType|FavorableValue|
+|-|----------|-------------|--------------|
+|1|ITEM000001|FreeOne      |2             |
+|2|ITEM000003|Discount     |0.95          |
+|3|ITEM000005|FreeOne      |2             |
+
 ## 第三步：构造商品对象&商品优惠类型
 根据第一步中解析出来的**条形码**和**数量**配合第二步中存储的商品信息构造出商品对象，该部分代码请参考**TWProduct类**。至于商品的优惠类型就根据**条形码**查“优惠信息表”即可，该部分代码请参考**TWFavorable类**
 ## 最后一步：结算
